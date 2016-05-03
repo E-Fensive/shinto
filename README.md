@@ -1,9 +1,9 @@
 # shinto
 
-Shinto is a collections of scripts and commands that parses, and combines
-relevant information for use in an incident response report. It was written
-to aide in documenting that information which most DFIR individuals find most
-helpful.
+Shinto is a collections of commands that parses, and combines relevant
+information for use in an incident response report. It was written to
+aide in documenting that information which most DFIR individuals find
+most helpful.
 
 It will parse out system information, the date, time, and last logins of
 users. The current connections as well as display the owner info associated
@@ -26,6 +26,5 @@ It uses tools already available on the system without needing to install any
 specific tool/language (ruby, python, etc.) with the exception of perl which
 available by default on *most* installs. 
 
-Sloppy, sure, effective, sure. It is more or less a mechanism to do common
-commands in one fell swoop with the output sent via email in a zip file, or
-the option to open in Firefox.
+It is more or less a mechanism to do common commands in one fell swoop with
+the output sent via email in a zip file, or the option to open in Firefox.
